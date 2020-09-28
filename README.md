@@ -34,7 +34,7 @@ If already using Admob Library :
 Step 3 :
 Build the native Ad adapter from your current RecyclerView adapter :
 
-    ```java
+    ```python
     AdmobNativeAdAdapter admobNativeAdAdapter=AdmobNativeAdAdapter.Builder
     	.with(
     		nativeAdId,//Create a native ad id from admob console
