@@ -34,7 +34,8 @@ If already using Admob Library :
 Step 3 :
 Build the native Ad adapter from your current RecyclerView adapter :
 
-    java ```AdmobNativeAdAdapter admobNativeAdAdapter=AdmobNativeAdAdapter.Builder
+    ```java
+    AdmobNativeAdAdapter admobNativeAdAdapter=AdmobNativeAdAdapter.Builder
     	.with(
     		nativeAdId,//Create a native ad id from admob console
     		currentAdapter,//The adapter you would normally set to your recyClerView
@@ -42,4 +43,5 @@ Build the native Ad adapter from your current RecyclerView adapter :
     		)
     	.adItemIterval(interval)//native ad repeating interval in the recyclerview
     	.build();
-    recyclerView.setAdapter(admobNativeAdAdapter);//set your RecyclerView adapter with the admobNativeAdAdapter```
+    recyclerView.setAdapter(admobNativeAdAdapter);//set your RecyclerView adapter with the admobNativeAdAdapter
+    ```
